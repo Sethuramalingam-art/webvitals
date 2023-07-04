@@ -1,0 +1,9 @@
+Largest Contentful Paint (LCP): Measures loading performance. To provide a good user experience, 
+strive to have LCP occur within the first 2.5 seconds of the page starting to load.
+
+First Input Delay (FID): Measures interactivity. To provide a good user experience, 
+strive to have an FID of less than 100 milliseconds. 
+Starting March 2024, Interaction to Next Paint (INP) will replace FID as a Core Web Vital.
+
+Cumulative Layout Shift (CLS): Measures visual stability. To provide a good user experience, 
+strive to have a CLS score of less than 0.1.
