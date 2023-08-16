@@ -7,3 +7,20 @@ Starting March 2024, Interaction to Next Paint (INP) will replace FID as a Core 
 
 Cumulative Layout Shift (CLS): Measures visual stability. To provide a good user experience, 
 strive to have a CLS score of less than 0.1.
+
+CLS - Cumulative Layout Shift - Page layout changing rapidly or slowing so the user is unpreditable to interact
+how the user to interact. So google have some score for that is less than 0.1
+
+ex: Go and back button is there
+click on go it shows on banner on that back button is not work if banner is showed immediately.so user can interact to banner.
+if it is slow banner will glow slow so user is idle for that time that is a CLS score
+https://www.youtube.com/watch?v=NItNEiWmJdU
+
+LCP- how fast the largest part of our page get rendered. if one page or component have list of div's
+first div -> title
+second div -> content
+third div -> video -> so in this page video is largest content. So This will loaded less than 2.5 secs means that is LCP 
+good performance as per google core 
+
+
+FID: 
